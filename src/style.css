@@ -1,6 +1,13 @@
 body {
-  background: #f5f5f5;
+  background: #f9f7fe;
   font-family: "Onest", sans-serif;
+}
+
+footer {
+  color: #bababa;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0;
 }
 
 .main-container {
@@ -10,4 +17,46 @@ body {
   margin: 50px auto;
   max-width: 600px;
   padding: 40px;
+}
+
+.search-form-input {
+  background-color: #fcfbfe;
+  border-radius: 5px;
+  border: none;
+  color: #bababa;
+  font-size: 15px;
+  padding: 20px;
+  width: 80%;
+}
+
+.search-form-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #885df1;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px;
+  width: 15%;
+}
+
+.current-country {
+  font-size: 20px;
+  padding: 40px 0;
+}
+
+.current-day-time {
+  color: #bababa;
+  line-height: 1.5em;
+  padding: 15px 0 30px 0;
+}
+
+.highlight-value {
+  color: #f65282;
+}
+
+.current-temperature {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px 0;
 }
