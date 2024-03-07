@@ -15,34 +15,81 @@
 <body>
     <div class="main-container">
         <header>
+            <link rel="https://www.shecodes.io" href="src/shecodes-logo.png" class="logo">
             <form class="search-form">
                 <input type="search" placeholder="Enter a city" required class="search-form-input" />
                 <input type="submit" value="Search" class="search-form-button" />
             </form>
         </header>
         <main>
-            <div>
-                <span class="current-country">
-                    <h1>Singapore</h1>
-                </span>
-                <span class="current-day-time">
-                    Sunday 19:59, moderate rain
-                    <br />
-                    Humidity:
-                    <span class="highlight-value">70%</span>. Wind:
-                    <span class="highlight-value">3.33km/h</span>
-                </span>
-                </span>
-            </div>
-            <div class="current-temperature">
-                🌧️ 27°C
+            <div class="weather-data">
+                <div>
+                    <h1 class="weather-data-city">Singapore</h1>
+                    <p class="weather-data-details">
+                        Sunday 19:59, moderate rain
+                        <br />
+                        Humidity:
+                        <span class="highlight-value">70%</span>. Wind:
+                        <span class="highlight-value">3.33km/h</span>
+                    </p>
+                </div>
+                <div class="weather-data-temperature">
+                    🌧️ 27°C
+                </div>
             </div>
         </main>
 
+        <div>
+            <ul class="list-days">
+                <li>
+                    Sun
+                    <br />
+                    🌧️
+                    <br />
+                    27° 25°
+                </li>
+                <li>
+                    Mon
+                    <br />
+                    🌥️
+                    <br />
+                    31° 26°
+                </li>
+                <li>
+                    Tue
+                    <br />
+                    🌧️
+                    <br />
+                    29° 24°
+                </li>
+                <li>
+                    Wed
+                    <br />
+                    🌤️
+                    <br />
+                    31° 27°
+                </li>
+                <li>
+                    Thu
+                    <br />
+                    🌦️
+                    <br />
+                    30° 28°
+                </li>
+                <li>
+                    Fri
+                    <br />
+                    🌥️
+                    <br />
+                    31° 29°
+                </li>
+            </ul>
+
+        </div>
 
         <footer>
             Coded by
-            <a href="https://github.com/ngsiangjoo" target="_blank">Ng Siang Joo</a>, is
+            <a href=" https://github.com/ngsiangjoo" target="_blank">Ng Siang Joo</a>, is
             <a href="https://github.com/ngsiangjoo/weather-search-project" target="_blank">open-sourced on Github</a>
             and
             <a href="https://weather-search-project-ngsiangjoo.netlify.app/" target="_blank">hosted on Netlify</a>
