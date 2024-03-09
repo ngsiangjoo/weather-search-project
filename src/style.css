@@ -87,13 +87,13 @@ hr {
 }
 
 .weather-data-emoji {
-  font-size: 40px;
-  padding: 25px 10px;
+  width: 82px;
+  margin: 0 15px;
 }
 
 .weather-data-unit {
-  font-size: 30px;
-  padding: 10px;
+  font-size: 35px;
+  margin: 10px;
 }
 
 .list-days {
